@@ -10,6 +10,7 @@ name: OpenWrt-CI
 on:
   schedule:
     - cron: 0 20 * * *
+  workflow_dispatch: # 添加这一行以启用手动触发
 
 permissions:
   contents: read
